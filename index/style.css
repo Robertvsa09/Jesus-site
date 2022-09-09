@@ -14,8 +14,38 @@
     --cor1:hsl(22, 93%, 11%);
     --font-padrao: 'Dancing Script' 'cursive'
 }
+header{
+    background-image: radial-gradient(circle,  rgba(0, 16, 104, 0.937) , rgba(7, 0, 63, 0.949) ,rgba(0, 16, 35, 0.942));
+    color:rgb(255, 255, 255);
+    text-align: center; 
+    padding-top: 16px;
+  padding-bottom: 1px;
+  padding-left: 14px;
+  padding-right: 14px;
+     background-size: cover; 
+         background-attachment: fixed;
+             border-radius: 2px;
+                box-shadow: rgb(1, 7, 24) 1px 1px 1px 1px;
+  
+}
 
-
+header > h1{
+     background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
+    font-family: var(--font1) ;
+    font-style:normal;
+   padding: 12px;
+   margin: 0%;
+        font-size: 6vw;
+      text-shadow: rgba(69, 0, 0, 0.753) 2px 3px 6px ;
+      
+}
+header > p{    background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
+    color: rgb(247, 247, 247);
+    text-shadow: 1px 1px 2px green;
+    
+    background-size: cover;
+    background-attachment: fixed;
+}
 body {
     background-image: radial-gradient(circle, rgba(0, 0, 255, 0.783), #e2ca93bb,#9b47b979);
     background-attachment: fixed;

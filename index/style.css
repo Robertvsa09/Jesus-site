@@ -20,7 +20,7 @@ header{
     text-align: center; 
     padding-top: 16px;
   padding-bottom: 1px;
-  padding-left: 14px;
+  padding-left: 10px;
   padding-right: 14px;
      background-size: cover; 
          background-attachment: fixed;
@@ -30,7 +30,7 @@ header{
 }
 
 header > h1{
-     background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
+     background-image: radial-gradient(circle,  rgba(237, 206, 197, 0.913) , rgba(233, 212, 196, 0.949) ,rgba(173, 166, 150, 0.827));
     font-family: var(--font1) ;
     font-style:normal;
    padding: 12px;
@@ -48,9 +48,7 @@ header > p{    background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.
 }
 body {
     background-image: radial-gradient(circle, rgba(0, 0, 255, 0.783), #e2ca93bb,#9b47b979);
-    background-attachment: fixed;
-   
-    text-align: center;
+  
   
 
 }
@@ -64,6 +62,7 @@ nav {
  }
   
    a {
+    text-decoration:overline wheat;
  padding: 10px;
    width: 300px;
   

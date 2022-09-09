@@ -69,22 +69,8 @@ nav {
 }
    
 
-header {
-    background-color: rgba(186, 160, 128, 0.936);
- border-radius: 4px;
-box-shadow: black 1px 1px 3px;
-width:405px;
-margin: auto;
 
-}
-header h1{
-    color: var(--cor0);
-    font-family: 'Dancing Script','cursive'; 
- text-align: center;
-      margin: 2px;
-   text-shadow: rgba(55, 54, 54, 0.572) 1px 2px 2px; 
-   
-}
+
 
 main {
     background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
